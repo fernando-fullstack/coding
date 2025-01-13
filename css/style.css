@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url('../images/background.jpg'); /* Ganti dengan link gambar latar belakang */
+    background-size: cover; /* Menyesuaikan gambar dengan ukuran container */
+    background-position: center; /* Memastikan gambar terpusat */
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+#menu {
+    padding: 2rem;
+    text-align: center;
+}
+
+.menu-item {
+    margin-bottom: 2rem;
+}
+
+.product-image {
+    width: 200px; /* Atur ukuran gambar produk */
+    height: auto; /* Menjaga proporsi gambar */
+    border-radius: 8px; /* Menambahkan sudut melengkung pada gambar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan pada gambar */
+    margin-top: 1rem;
+}
+
+.product-image:hover {
+    transform: scale(1.05); /* Efek zoom pada gambar saat hover */
+    transition: transform 0.3s ease-in-out; /* Memberikan animasi zoom */
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+.whatsapp-link {
+    text-decoration: none; /* Menghilangkan underline pada link */
+}
+
+.whatsapp-button {
+    background-color: #25d366; /* Warna hijau WhatsApp */
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e; /* Warna hijau gelap WhatsApp saat hover */
+}
